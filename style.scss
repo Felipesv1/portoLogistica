@@ -37,8 +37,6 @@ header {
 }
 
 main {
-  width: 100vw;
-
   .container_summary {
     height: 39.625rem;
     background-image: url(assets/background.png);
@@ -71,6 +69,103 @@ main {
         font-size: 1.25rem;
         border: none;
         cursor: pointer;
+      }
+    }
+  }
+  .container_integrated_port_management {
+    height: 100vh;
+    display: flex;
+    padding: 150px;
+    justify-content: space-around;
+    div {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      span {
+        font-family: "Oswald", serif;
+        font-size: 1.5rem;
+        font-weight: 500;
+        color: #0017e9;
+      }
+      h3 {
+        width: 29.625rem;
+        font-family: "Roboto", serif;
+        font-size: 2.5rem;
+        line-height: 42.19px;
+      }
+      p {
+        width: 29.625rem;
+        font-size: 1.5rem;
+        font-weight: 400;
+        font-family: "Roboto", serif;
+        line-height: 28.13px;
+      }
+      a {
+        font-family: "Roboto", serif;
+        font-size: 1.5rem;
+        line-height: 28.13px;
+        text-decoration: none;
+        color: #0017e9;
+      }
+    }
+  }
+
+  .container_soluctions {
+    background-color: #d8d8d8;
+    font-family: "Oswald", serif;
+    height: 64rem;
+    padding: 85px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    div {
+      height: 7rem;
+      display: flex;
+      flex-direction: column;
+      h3 {
+        font-size: 1.5rem;
+        line-height: 35.57px;
+        font-weight: 500;
+        text-transform: uppercase;
+        color: #0017e9;
+      }
+      span {
+        font-size: 1.5rem;
+        line-height: 35.57px;
+        font-weight: 500;
+        text-transform: uppercase;
+        margin-top: 20px;
+      }
+    }
+    .cards {
+      height: 100vh;
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      .card {
+        background-color: white;
+        box-shadow: 0 4px 6px 5px rgba(0, 0, 0, 0.1);
+        width: 22.938rem;
+        height: 30.25rem;
+        text-align: start;
+
+        figcaption {
+          padding: 15px;
+
+          h4 {
+            font-size: 1.5rem;
+            font-weight: 500;
+            line-height: 35.57px;
+            margin-bottom: 30px;
+          }
+          p {
+            font-size: 1.5rem;
+            font-weight: 200;
+          }
+        }
       }
     }
   }
