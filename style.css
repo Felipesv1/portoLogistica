@@ -161,4 +161,30 @@ main .container_soluctions .cards .card figcaption h4 {
 main .container_soluctions .cards .card figcaption p {
   font-size: 1.5rem;
   font-weight: 200;
+}
+main .container_services {
+  height: 64rem;
+  font-family: "Oswald", serif;
+  text-transform: uppercase;
+  padding: 100px;
+}
+main .container_services .customer_service_and_sales {
+  width: 50%;
+  height: 10;
+  background-color: aqua;
+}
+main .container_services .customer_service_and_sales h2 {
+  color: rgb(0, 23, 233);
+  font-size: 2rem;
+}
+main .container_services .customer_service_and_sales span {
+  font-size: 1.5rem;
+}
+main .container_services .customer_service_and_sales div {
+  display: flex;
+  background-color: brown;
+}
+main .container_services .customer_service_and_sales div figcaption {
+  color: rgb(0, 0, 0);
+  font-weight: 500;
 }/*# sourceMappingURL=style.css.map */

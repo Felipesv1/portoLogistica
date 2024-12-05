@@ -169,4 +169,30 @@ main {
       }
     }
   }
+  .container_services {
+    height: 64rem;
+    font-family: "Oswald", serif;
+    text-transform: uppercase;
+    padding: 100px;
+    .customer_service_and_sales {
+      width: 50%;
+      height: 10;
+      background-color: aqua;
+      h2 {
+        color: rgba(0, 23, 233, 1);
+        font-size: 2rem;
+      }
+      span {
+        font-size: 1.5rem;
+      }
+      div {
+        display: flex;
+        background-color: brown;
+        figcaption {
+          color: rgba(0, 0, 0, 1);
+          font-weight: 500;
+        }
+      }
+    }
+  }
 }
