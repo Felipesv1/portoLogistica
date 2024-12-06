@@ -163,15 +163,18 @@ main .container_soluctions .cards .card figcaption p {
   font-weight: 200;
 }
 main .container_services {
+  display: flex;
+  justify-content: space-evenly;
   height: 64rem;
   font-family: "Oswald", serif;
   text-transform: uppercase;
   padding: 100px;
 }
 main .container_services .customer_service_and_sales {
-  width: 50%;
-  height: 10;
-  background-color: aqua;
+  width: 60%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
 }
 main .container_services .customer_service_and_sales h2 {
   color: rgb(0, 23, 233);
@@ -182,9 +185,64 @@ main .container_services .customer_service_and_sales span {
 }
 main .container_services .customer_service_and_sales div {
   display: flex;
-  background-color: brown;
+  width: 60%;
+  margin-top: 50px;
+  justify-content: space-between;
 }
 main .container_services .customer_service_and_sales div figcaption {
   color: rgb(0, 0, 0);
   font-weight: 500;
+}
+main .container_services .container_talk_to_us {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 100%;
+}
+main .container_services .container_talk_to_us h2 {
+  color: rgb(0, 23, 233);
+  font-size: 2rem;
+}
+main .container_services .container_talk_to_us span {
+  font-size: 1.5rem;
+}
+main .container_services .container_talk_to_us form {
+  display: flex;
+  height: 70vh;
+  flex-direction: column;
+  margin-top: 40px;
+}
+main .container_services .container_talk_to_us form label {
+  width: 1.25rem;
+  font-weight: 300;
+  margin-top: 16px;
+}
+main .container_services .container_talk_to_us form input {
+  width: 332px;
+  height: 50px;
+  border: 1px solid;
+}
+main .container_services .container_talk_to_us form textarea {
+  width: 332px;
+  border: 1px solid;
+  resize: none;
+}
+main .container_services .container_talk_to_us form button {
+  width: 332px;
+  height: 58px;
+  font-size: 1.25rem;
+  margin-top: 50px;
+  background: rgb(0, 23, 233);
+  border: none;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+footer {
+  font-family: "Oswald", serif;
+  height: 5vh;
+  background-color: rgb(216, 216, 216);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }/*# sourceMappingURL=style.css.map */
