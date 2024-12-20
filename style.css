@@ -35,6 +35,29 @@ header a:hover {
   outline: 1px solid #000000;
 }
 
+@media (min-width: 320px) and (max-width: 900px) {
+  header {
+    height: 100%;
+  }
+  header h2 {
+    color: red;
+    display: none;
+  }
+  header nav {
+    width: 100%;
+    height: 100%;
+  }
+  header ul {
+    flex-direction: column;
+  }
+  header a {
+    padding: 0;
+    font-size: 1.25rem;
+  }
+  header a:hover {
+    display: none;
+  }
+}
 main .container_summary {
   height: 39.625rem;
   background-image: url(assets/background.png);
@@ -241,7 +264,7 @@ main .container_services .container_talk_to_us form button {
   color: #ffffff;
   cursor: pointer;
 }
-@media (min-width: 768px) and (max-width: 1300px) {
+@media (min-width: 900px) and (max-width: 1300px) {
   main .container_soluctions {
     background-color: green;
     width: 100%;
@@ -249,12 +272,11 @@ main .container_services .container_talk_to_us form button {
   }
   main .container_soluctions .cards {
     justify-content: space-between;
-    flex-direction: column;
     width: 100%;
   }
   main .container_soluctions .cards .card {
     margin-top: 20px;
-    width: 20rem;
+    width: 15rem;
   }
   main .container_soluctions .cards .card img {
     width: 100%;
@@ -265,7 +287,8 @@ main .container_services .container_talk_to_us form button {
   main .container_integrated_port_management img {
     margin-left: 50px;
   }
-  main .container_integrated_port_management div span, main .container_integrated_port_management div a {
+  main .container_integrated_port_management div span,
+  main .container_integrated_port_management div a {
     font-size: 1rem;
   }
   main .container_integrated_port_management div h3 {
@@ -273,6 +296,88 @@ main .container_services .container_talk_to_us form button {
   }
   main .container_integrated_port_management div p {
     font-size: 0.9rem;
+  }
+  main .container_services {
+    flex-direction: column;
+    height: 100%;
+    padding: 100px;
+    align-items: center;
+  }
+  main .container_services .customer_service_and_sales {
+    width: 100%;
+  }
+  main .container_services .customer_service_and_sales div {
+    width: 100%;
+    margin-right: 5px;
+  }
+  main .container_services .container_talk_to_us {
+    margin-top: 200px;
+  }
+}
+@media (min-width: 320px) and (max-width: 900px) {
+  main .container_summary div {
+    padding-left: 0px;
+    align-items: center;
+  }
+  main .container_summary div h1 {
+    font-size: 4rem;
+  }
+  main .container_summary div p {
+    font-size: 1rem;
+  }
+  main .container_integrated_port_management {
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px;
+  }
+  main .container_integrated_port_management div {
+    width: 100%;
+    text-align: left;
+  }
+  main .container_integrated_port_management div h3 {
+    font-size: 1rem;
+    width: 100%;
+  }
+  main .container_integrated_port_management div p {
+    font-size: 1rem;
+    width: 100%;
+  }
+  main .container_integrated_port_management img {
+    margin-top: 10px;
+    width: 70%;
+  }
+  main .container_soluctions {
+    height: 100%;
+  }
+  main .container_soluctions .cards {
+    margin-top: 20px;
+    flex-direction: column;
+  }
+  main .container_soluctions .cards .card {
+    margin-top: 15px;
+  }
+  main .container_services {
+    flex-direction: column;
+    height: 100%;
+    padding: 100px;
+    text-align: center;
+    align-items: center;
+  }
+  main .container_services .customer_service_and_sales {
+    width: 100%;
+    height: 100%;
+  }
+  main .container_services .customer_service_and_sales div {
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+  }
+  main .container_services .container_talk_to_us {
+    width: 100%;
+    margin-top: 150px;
+    align-items: center;
   }
 }
 
